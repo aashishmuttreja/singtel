@@ -1,0 +1,1 @@
+define({version:"1.0.0",load:function(a,b,c,d){d.isBuild?c():b([a],function(a){c(a)})},normalize:function(a,b){var c=a.indexOf("!");return(c>-1?a.substring(0,c)+"!":"")+b(a.substr(c+1))}});
